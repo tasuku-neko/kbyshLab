@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 
 
 //出す手は数値で返す(0:ぐー,1:ちょき,2:ぱー)
@@ -14,7 +15,6 @@ int main(){
 
 int gitVs(per,com){
 	int res;//勝ち負け
-
 //あいこの場合
 	if(per == com){
 		res = 2;
@@ -42,5 +42,14 @@ int gitVs(per,com){
 		}
 	}
 	return res;
+}
+
+
+void getMyHand(int x){
+  int a;
+  a=x;
+
+  return a;
+
 }
 
