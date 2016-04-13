@@ -10,7 +10,7 @@ void printResult();
 
 
 int main(){
-    aaaa;
+    //送りかたがわかっていないので試しに送ります。
 }
 
 
