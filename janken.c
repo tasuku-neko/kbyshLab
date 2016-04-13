@@ -13,9 +13,50 @@ int main(){
  
 }
 
+int gitVs(per,com){
+	int res;//勝ち負け
+//あいこの場合
+	if(per == com){
+		res = 2;
+
+//その他
+		else{
+			if(per == 0 && com == 1){
+				res = 0;
+			}
+			if(per == 0 && com == 2){
+				res = 1;
+			}
+			if(per == 1 && com == 0){
+				res = 1
+			}
+			if(per == 1 && com == 2){
+				res = 0;
+			}
+			if(per == 2 && com == 0){
+				res = 0
+			}
+			if(per == 1 && com == 2){
+				res = 1;
+			}
+		}
+	}
+	return res;
+}
+
+
+void getMyHand(int x){
+  int a;
+  a=x;
+
+  return a;
+
+}
+
+
 void printResult(int a){
 
-  
+
   if(a==0){
     printf("勝ち");
   }
@@ -25,5 +66,5 @@ void printResult(int a){
   if(a==2){
     printf("あいこ");
   }
- 
+
 }
