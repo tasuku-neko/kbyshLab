@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#include<stdlib.h>
 
 //出す手は数値で返す(0:ぐー,1:ちょき,2:ぱー)
 int getEnemyHand();
@@ -8,10 +8,69 @@ int getMyHand();
 int getVs(int,int);
 void printResult();
 
-
 int main(){
-    //送りかたがわかっていないので試しに送ります。
+  //送りかたがわからないので試し
 }
 
 
 
+int getVs(per,com){
+	int res;//勝ち負け
+//あいこの場合
+	if(per == com){
+		res = 2;
+
+//その他
+		else{
+			if(per == 0 && com == 1){
+				res = 0;
+			}
+			if(per == 0 && com == 2){
+				res = 1;
+			}
+			if(per == 1 && com == 0){
+				res = 1
+			}
+			if(per == 1 && com == 2){
+				res = 0;
+			}
+			if(per == 2 && com == 0){
+				res = 0
+			}
+			if(per == 1 && com == 2){
+				res = 1;
+			}
+		}
+	}
+	return res;
+}
+
+
+void getMyHand(int x){
+  int a;
+  a=x;
+
+  return a;
+
+}
+
+
+void printResult(int a){
+
+
+  if(a==0){
+    printf("勝ち");
+  }
+  if(a==1){
+    printf("負け");
+  }
+  if(a==2){
+    printf("あいこ");
+  }
+
+}
+
+void getEnemyHand(int enemy){
+  int enemyhand = enemy;
+  return enemyhand;
+}
