@@ -13,5 +13,12 @@ void printResult();
 int main(){
 }
 
+void getMyHand(int x){
+  int a;
+  a=x;
+
+  return a;
+
+}
 
 
