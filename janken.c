@@ -10,6 +10,7 @@ void printResult();
 
 
 int main(){
+    aaaa;
 }
 
 
