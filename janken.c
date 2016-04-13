@@ -68,3 +68,8 @@ void printResult(int a){
   }
 
 }
+
+void getEnemyHand(int enemy){
+  int enemyhand = enemy;
+  return enemyhand;
+}
