@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 
 
 //出す手は数値で返す(0:ぐー,1:ちょき,2:ぱー)
