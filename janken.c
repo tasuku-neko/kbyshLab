@@ -13,7 +13,7 @@ int main(){
  
 }
 
-int gitVs(per,com){
+int getVs(per,com){
 	int res;//勝ち負け
 //あいこの場合
 	if(per == com){
