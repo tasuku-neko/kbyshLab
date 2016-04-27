@@ -12,7 +12,7 @@ int main(){
   //送りかたがわからないので試し
 }
 
-
+int gyaaaaaaaaa;
 
 int getVs(per,com){
 	int res;//勝ち負け
